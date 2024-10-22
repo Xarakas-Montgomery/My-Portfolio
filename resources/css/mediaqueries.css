@@ -1,0 +1,164 @@
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.25rem ;
+    }
+
+    #description {
+        display:block;
+        margin-left: 33.5px;
+        margin-right: 33.5px;
+    }
+
+    #Me {
+        width: 90%;
+    }
+
+    main img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 0px;
+        margin-bottom: -5px;
+      }
+
+    span {
+        font-size: 1.75rem;
+        padding-left: 35%;
+    }
+
+    #projects {
+        width: 76.7%;
+    }
+
+    #icons img {
+        width: 8%;
+        height: auto;
+    }
+
+    .guess input {
+        margin-bottom: 5px;
+        margin-top: -10px;
+    }
+    .guess-label {
+        font-size: 1rem;
+    }
+
+    .computer-guess {
+        height: 225px;
+      }
+
+      .human-guess {
+        height: 300px;
+        height: 225px;
+      }
+
+      #next-round {
+        margin-left: 37.5%;
+        width: 109px;
+        height: 59px;
+        border-radius: 35%;
+      }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 2.75rem ;
+    }
+
+    #description {
+        display:block;
+        margin-left: 33.5px;
+        margin-right: 33.5px;
+    }
+
+    main img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 0px;
+        margin-bottom: -5px;
+      }
+
+    #Me {
+        width: 90%;
+    }
+
+    span {
+        font-size: 1.75rem;
+        padding-left: 40%;
+    }
+
+    #icons img {
+        width: 9%;
+        height: auto;
+    }
+
+    #projects {
+        width: 69%;
+    }
+
+    .guess-label {
+        font-size: 1.33rem;
+    }
+
+    #next-round {
+        margin-left: 40.5%;
+        width: 129px;
+        height: 69px;
+        border-radius: 35%;
+      }
+
+      .computer-guess {
+        height: 275px;
+      }
+
+      .human-guess {
+        height: 300px;
+        height: 275px;
+      }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    #projects {
+        width: 60%;
+    }
+
+    #icons img {
+        width: 10%;
+        height: auto;
+    }
+
+    #karma-help {
+        margin-left: 40%
+    }
+    .guess-label {
+        font-size: 1.75rem;
+    }
+
+    #next-round {
+        margin-left: 41.5%;
+        width: 159px;
+        height: 81px;
+        border-radius: 35%;
+      }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #karma-help {
+        margin-left: 37%
+    }
+
+    .guess-label {
+        font-size: 2rem;
+    }
+
+    #next-round {
+        margin-left: 41.5%;
+        width: 179px;
+        height: 83.5px;
+        border-radius: 35%;
+      }
+}
+
+@media only screen and (min-width: 1201px) {
+
+}
